@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(to left, rgb(181, 196, 181), rgb(95, 129, 93));
+}
+
+h1{
+    text-align: center;
+}
+.vlr{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#button{
+    margin-top: 1%;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: aliceblue;
+}

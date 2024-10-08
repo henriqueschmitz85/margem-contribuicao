@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Margem</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculadora de Margem de Contribuição</h1>
+    <div class="vlr">
+        <div id="vlr_prod">
+            <p>Digite o valor de venda do produto</p>
+            <input type="number" id="valorVenda" oninput="calcImposto()">
+        </div>
+        
+        <div id="imp">
+            <p>Imposto (26,25%)</p>
+            <input type="number" id="imposto" readonly>
+        </div>
+    
+        <div id="rol">
+            <p>ROL</p>
+            <input type="number" id="rolValue" readonly>
+        </div>
+    
+        <div id="cmv">
+            <p>Custo da mercadoria vendida (CMV)</p>
+            <input type="number" id="cmvValue" oninput="calcMargem()">
+        </div>
+        
+        <div id="margem">
+            <p>Margem de Contribuição</p>
+            <input type="number" id="margemValue" readonly>
+        </div>
+    
+        <div id="percMargem">
+            <p>% Margem</p>
+            <input type="number" id="percMargemValue" readonly>
+        </div>
+
+    </div>
+
+</body>
+</html>
